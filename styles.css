@@ -273,20 +273,25 @@ textarea, textarea:hover, textarea:scope {
     color: #000000;
 }
 .vertical-div {
-    border-left:1px solid #555555;
-    height:80dvh;
+    border-left:0px solid #555555;
+    height:0dvh;
     margin: auto;
     padding: auto;
 }
 .form-field-right {
     display: flex;
     flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+}
 
-    padding: 20px;
+.form-phone {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .form-title {
-    font-size: 5dvw;
+    font-size: 3dvw;
 }
 
 .form-p {
